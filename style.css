@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.hero-section{
+    background-image: url(banner.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100vh;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+.hero-text{
+    color: rgb(215, 201, 201);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.book-button,
+.know-button{
+    background-color: aqua;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* .amenities{
+    text-align: center;
+} */
+/* .amenities > ul{
+    display: inline-block;
+    text-align: left;
+    margin-top: 10px;
+} */
+/* .about-us{
+    float: left;
+    width: 50%;
+    margin: 10px 10px;
+    text-align: center;
+
+} */
+.about-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-us{
+    width: 50%;
+}
+.about-heading{
+    text-align: center;
+    margin:10px 10px;
+    text-decoration: underline;
+}
+.form-heading, 
+.know-more-container{
+    text-align: center;
+}
+ul li{
+    list-style: none;
+}
+.fa-solid{
+    margin-right: 10px;
+}
+.room-type-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 0px 20px;
+    margin-top: 20px;
+}
+.room-images img{
+    width: 600px;
+    height: 400px;
+}
+.room-heading{
+    text-align: center;
+}
+.room-list h4{
+    font-size: 20px;
+}
+.help-button{
+    background-color: rgb(230, 158, 14);
+    width: fit-content;
+    padding: 5px 15px;
+    margin-top:10px ;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 0;
+}
+.help-button h4{
+    color: rgb(242, 248, 245);
+    letter-spacing: 1px;
+}
+form{
+    border: 2px solid gray;
+    width: max-content;
+    padding: 10px 10px;
+    border-radius: 20px;
+    margin: 30px 0px;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    font-size: 18px;
+}
+input,select{
+    padding: 5px;
+    font-size: 15px;
+}

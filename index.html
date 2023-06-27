@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/e73cc328d0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Hotel</title>
+  </head>
+  <body>
+    <section class="hero-section">
+      <div class="hero-text">
+        <h1 style="font-size: 45px; margin-bottom: 10px">
+          Welcome to Paradise Hotel
+        </h1>
+        <p style="font-size: 20px; margin: 10px">
+          we provide rooms at a very good price along with great amenities to
+          make your living experience awesome
+        </p>
+        <button class="book-button">Book</button>
+      </div>
+    </section>
+    <h1 class="about-heading">About us</h1>
+    <section class="about-section">
+      <div class="about-us">
+        <p>
+          looking for a vacation to leave behind the hustle of everyday life and
+          indulge in world-class hospitality at exotic locations? look no
+          further than the leading & fastest growing hotel chain of eastern
+          India, Hotel Paradise. Your unwinding days with us will be the perfect
+          blend of leisure, comfort, convenience & class.
+        </p>
+        <br>
+        <p>
+          we are currently present at konthamuru, Rajahmundry, kovvoru, Vizag to
+          make your well deserved vacation a turly unforgettable affair.
+        </p>
+        <div class="know-more-container">
+          <button class="know-button">know More...</button>
+        </div>
+      </div>
+      <div class="amenities">
+        <h3>Amenities we have:</h3>
+        <ul>
+          <li><i class="fa-solid fa-wifi"></i>High Speed Internet</li>
+          <li><i class="fa-solid fa-dumbbell"></i>Gym</li>
+          <li><i class="fa-solid fa-burger"></i>Complementary Breakfast</li>
+          <li><i class="fa-solid fa-person-swimming"></i>Swimming Pool</li>
+          <li><i class="fa-solid fa-mug-saucer"></i>Cafetteria</li>
+        </ul>
+      </div>
+    </section>
+    <h1 class="room-heading">Room Types</h1>
+    <section class="room-type-container">
+      <div class="room-images">
+        <img src="room.jpg" alt="room-image">
+      </div>
+      <div class="room-list">
+        <h4>Single occupancy room</h4>
+        <p>A room assigned to one person. May have one or more beds.
+          The room size or area of single rooms are generally 37 m2 to 45 m2
+        </p>
+        <h4>Family room</h4>
+        <p>
+          A porlour or living room connected with to one or more bedrooms.
+          The room size or area of suite rooms are generally between 70m2 to 100m2.
+        </p>
+        <h4>Duplex room</h4>
+        <p>
+          The most expensive room at hotle. Usually only one suplex suite is avaliable in one single hotel.
+          similar to normal suites, a Duplex suite always has one or more bedrooms and a living space with 
+          a strong emphasis on grand decoration,high-quality amenities and supplies, and tailor-made services.
+        </p>
+      </div>
+    </section>
+    <div class="help-button">
+      <h4>Need Help?</h4>
+    </div>
+    <h2 class="form-heading">Fill the form for booking room</h2>
+    <section class="form-container">
+      <form>
+         <div class="form-group">
+          <label for="name">Your Full Name</label><br>
+          <input type="text" id="name" required>
+         </div>
+         <div class="form-group">
+          <label for="email">Email Id</label><br>
+          <input type="email" name="" id="email" required>
+         </div>
+         <div class="form-group">
+          <label for="booking date">Date of Booking</label><br>
+          <input type="date" id="booking date" required>
+         </div>
+         <div class="form-group">
+          <label for="room type">Select Room Type</label><br>
+          <select name="room type" id="room type" required>
+            <option value=""selected disabled>Select..</option>
+            <option value="single room">Single Room</option>
+            <option value="family room">Family Room</option>
+            <option value="duplex room">Duplex Room</option>
+          </select>
+         </div>
+         <input type="submit" value="Book">
+      </form>
+    </section>
+  </body>
+</html>
